@@ -1,5 +1,9 @@
 # ACIT 2420 Week 12 Lab 
 
+## Team member(s)
+ByeongJu(Jace) Kang
+Dennis Phan
+
 ## Setting up NGINX on a server
 This is a guide on how to install NGINX on a server with a firewall
 
