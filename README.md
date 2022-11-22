@@ -9,7 +9,6 @@ This is a guide on how to install NGINX on a server with a firewall
 
 ### Step 1
 
-The initial step is to:  
 Install NGINX on the server
 
 1. Run the command `sudo apt upgrade`
