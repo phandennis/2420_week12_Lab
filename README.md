@@ -21,7 +21,7 @@ Install NGINX on the server
 
 3. Run the command `sudo systemctl status nginx`
 
-![Status_Nginnx ](./image/status_nginx.PNG)
+![Status_Nginx ](./image/nginx_status.PNG)
 
 
 
