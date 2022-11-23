@@ -37,6 +37,7 @@ Use the HTML document in the repository and place it into `/var/www/your_ip/html
 
 Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the HTML.
 
+
 ### Step 4
 
 1. Move your files to
@@ -51,15 +52,22 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 
 ### Step 5
 
-![Picutue 1](images/picture1.png)
+1. Run the command `sudo systemctl daemon-reload`
+2. Run the command `sudo systemctl start nginx.service`
+3. Run the command `sudo systemctl enable nginx.service`
+4. Visit your server's ip and the html should be rendered like below:
+
+![Nginx](./images/html_nginx.png)
 
 ### Step 6
 
-![Picutue 1](images/picture1.png)
+
 
 ### Step 7
 
-![Picutue 1](images/picture1.png)
+
+
+![Setting up ufw](./images/ufw.png)
 
 ### Step 8
 
