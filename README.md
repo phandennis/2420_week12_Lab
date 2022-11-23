@@ -57,7 +57,7 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 3. Run the command `sudo systemctl enable nginx.service`
 4. Visit your server's ip and the html should be rendered like below:
 
-![Nginx](./images/html_nginx.png)
+![Nginx](./image/html_nginx.png)
 
 ### Step 6
 
@@ -67,7 +67,7 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 
 
 
-![Setting up ufw](./images/ufw.png)
+![Setting up ufw](./image/ufw.png)
 
 ### Step 8
 
