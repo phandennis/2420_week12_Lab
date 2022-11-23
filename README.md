@@ -39,11 +39,6 @@ Move your files locally to the server with the sftp
 
 ### Step 3
 
-
-
-
-### Step 4
-
 Use the HTML document in the repository and place it into `/var/www/your_ip/html/`  
 Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the HTML.
 
@@ -57,19 +52,19 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 
     ![Verifying nginx configuration is working](./image/create_symbolic_link.png)
 
-### Step 5
+### Step 4
 
 1. Run the command `sudo systemctl daemon-reload`
 2. Run the command `sudo systemctl start nginx.service`
 3. Run the command `sudo systemctl enable nginx.service`
 
-### Step 6
+### Step 5
 
 1. Visit your server's ip and the html should be rendered like below:
 
 ![Nginx](./image/html_nginx.png)
 
-### Step 7
+### Step 6
 
 1. Check the status of ufw by running `sudo ufw status`
 2. Check the available applications by running `sudo ufw app list`
@@ -83,7 +78,7 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
     
     ![Setting up ufw](./image/ufw2.PNG)
 
-### Step 8
+### Step 7
 
 1. Check your ip address if it still renders after the firewall is installed by visiting your ip address
 2. Check if you are able to ssh into your server after the firewall is installed
