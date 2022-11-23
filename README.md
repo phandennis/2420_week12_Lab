@@ -13,15 +13,15 @@ Install NGINX on the server
 
 1. Run the command `sudo apt upgrade`
 
-![Install Nginx ](image/apt_upgrade.png)
+![Install Nginx ](./image/apt_upgrade.PNG)
 
 2. Run the command `sudo apt install nginx`
 
-![Install Nginx ](image/install_nginx.png)
+![Install Nginx ](./image/install_nginx.PNG)
 
 3. Run the command `sudo systemctl status nginx`
 
-![Install Nginx ](image/status_nginx.png)
+![Install Nginx ](./image/status_nginx.PNG)
 
 
 
