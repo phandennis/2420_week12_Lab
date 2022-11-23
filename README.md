@@ -31,14 +31,21 @@ Install NGINX on the server by following these instructions:
 
 ### Step 2
 
-Use the HTML document in the repository and place it into `/var/www/your_ip/html/`
+Move your files locally to the server with the sfpt
+
+1. Run `sftp -i ~/.ssh/your_key your_user@your_ip`
+
+    ![checking the status of nginx to verify it is working properly](./image/sftp.PNG)
 
 ### Step 3
 
-Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the HTML.
+
 
 
 ### Step 4
+
+Use the HTML document in the repository and place it into `/var/www/your_ip/html/`
+Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the HTML.
 
 1. Move your files to
 
@@ -64,7 +71,7 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 
 ### Step 7
 
-
+1. Check the status of 
 
 ![Setting up ufw](./image/ufw.png)
 
