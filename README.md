@@ -85,4 +85,4 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 
 ### Step 8
 
-![Picutue 1](images/picture1.png)
+    ![Setting up ufw](./image/still_works.PNG)
