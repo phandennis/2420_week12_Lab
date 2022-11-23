@@ -9,35 +9,37 @@ This is a guide on how to install NGINX on a server with a firewall
 
 ### Step 1
 
-Install NGINX on the server
+Install NGINX on the server by following these instructions:
 
 1. Run the command `sudo apt upgrade`
 
-![sudo apt upgrade](./image/apt_upgrade.PNG)
+
+    ![sudo apt upgrade command](./image/apt_upgrade.PNG)
+
 
 2. Run the command `sudo apt install nginx`
+ 
+ 
+    ![Install Nginx with the command sudo apt install nginx](./image/install_nginx.PNG)
 
-![Install Nginx ](./image/install_nginx.PNG)
 
 3. Run the command `sudo systemctl status nginx`
 
-![Status_Nginx ](./image/nginx_status.PNG)
 
+    ![checking the status of nginx to verify it is working properly](./image/nginx_status.PNG)
 
 
 ### Step 2
 
-![Picutue 1](images/picture1.png)
+Use the HTML document in the repository and place it into 
 
 ### Step 3
 
-
-
-![Picutue 1](images/.png)
+Use the NGINX server block file to server the HTML.
 
 ### Step 4
 
-![Picutue 1](images/picture1.png)
+![Uploading files to the server and appropriate directories](images/.png)
 
 ### Step 5
 
