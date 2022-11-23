@@ -44,7 +44,7 @@ Move your files locally to the server with the sftp
 
 ### Step 4
 
-Use the HTML document in the repository and place it into `/var/www/your_ip/html/`
+Use the HTML document in the repository and place it into `/var/www/your_ip/html/`  
 Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the HTML.
 
 1. Move your files to
