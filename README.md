@@ -56,8 +56,6 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 2. Run the command `sudo systemctl start nginx.service`
 3. Run the command `sudo systemctl enable nginx.service`
 
-![Nginx](./image/html_nginx.png)
-
 ### Step 6
 
 1. Visit your server's ip and the html should be rendered like below:
