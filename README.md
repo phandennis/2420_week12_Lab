@@ -39,13 +39,15 @@ Use the NGINX server block file to serve the HTML.
 
 ### Step 4
 
-1. Move your files to your 
-![Uploading files to the server and appropriate directories](./image/move_files.png)
+1. Move your files to
+
+    ![Uploading files to the server and appropriate directories](./image/move_files.png)
 
 2. Creating a soft link to new server block in sites-enabled `sudo ln -s /etc/nginx/sites-available/your_ip /etc/nginx/sites-enabled/`
    Where `your_ip` is the ip of your server
 3. Verify it works with `sudo nginx -t`  
-![Verifying nginx configuration is working](./image/create_symbolic_link.png)
+
+    ![Verifying nginx configuration is working](./image/create_symbolic_link.png)
 
 ### Step 5
 
