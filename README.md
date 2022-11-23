@@ -35,7 +35,7 @@ Move your files locally to the server with the sfpt
 
 1. Run `sftp -i ~/.ssh/your_key your_user@your_ip`
 
-    ![checking the status of nginx to verify it is working properly](./image/sftp.PNG)
+    ![sftp](./image/sftp.png)
 
 ### Step 3
 
