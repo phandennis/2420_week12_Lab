@@ -35,7 +35,7 @@ Use the HTML document in the repository and place it into `/var/www/your_ip/html
 
 ### Step 3
 
-Use the NGINX server block file to serve the HTML.
+Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the HTML.
 
 ### Step 4
 
