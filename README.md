@@ -79,9 +79,9 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 7. Press `y` and press `Enter`
 8. Check the status for ufw by running `sudo ufw status numbered` 
 
-    ![Setting up ufw](./image/ufw1.png)  
+    ![Setting up ufw](./image/ufw1.PNG)  
     
-    ![Setting up ufw](./image/ufw2.png)
+    ![Setting up ufw](./image/ufw2.PNG)
 
 ### Step 8
 
