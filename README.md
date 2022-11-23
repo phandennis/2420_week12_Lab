@@ -31,15 +31,21 @@ Install NGINX on the server by following these instructions:
 
 ### Step 2
 
-Use the HTML document in the repository and place it into 
+Use the HTML document in the repository and place it into `/var/www/your_ip/html/`
 
 ### Step 3
 
-Use the NGINX server block file to server the HTML.
+Use the NGINX server block file to serve the HTML.
 
 ### Step 4
 
-![Uploading files to the server and appropriate directories](images/.png)
+1. Move your files to your 
+![Uploading files to the server and appropriate directories](./image/move_files.png)
+
+2. Creating a soft link to new server block in sites-enabled `sudo ln -s /etc/nginx/sites-available/your_ip /etc/nginx/sites-enabled/`
+   Where `your_ip` is the ip of your server
+3. Verify it works with `sudo nginx -t`  
+![Verifying nginx configuration is working](./image/create_symbolic_link.png)
 
 ### Step 5
 
