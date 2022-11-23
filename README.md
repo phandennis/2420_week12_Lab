@@ -85,4 +85,6 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 
 ### Step 8
 
+1. Check your ip address if it still renders after the firewall is installed by visiting your ip address
+2. Check if you are able to ssh into your server after the firewall is installed
     ![still works](./image/still_works.PNG)
