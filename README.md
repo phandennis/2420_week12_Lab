@@ -31,7 +31,7 @@ Install NGINX on the server by following these instructions:
 
 ### Step 2
 
-Move your files locally to the server with the sfpt
+Move your files locally to the server with the sftp
 
 1. Run `sftp -i ~/.ssh/your_key your_user@your_ip`
 
