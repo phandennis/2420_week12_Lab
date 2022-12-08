@@ -66,6 +66,10 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 
 ### Step 6
 
+*** NOTE TO SELF ***  
+Only required `Nginx HTTP` and `OpenSSH`
+********************
+
 1. Check the status of ufw by running `sudo ufw status`
 2. Check the available applications by running `sudo ufw app list`
 3. Run `sudo ufw allow application` for the list of available application from the previous command and replace the application name where `application` is
