@@ -55,8 +55,8 @@ Place the NGINX server block file in `/etc/nginx/sites-available/` to serve the 
 ### Step 4
 
 1. Run the command `sudo systemctl daemon-reload`
-2. Run the command `sudo systemctl start nginx.service`
-3. Run the command `sudo systemctl enable nginx.service`
+2. Run the command `sudo systemctl reload nginx.service`
+
 
 ### Step 5
 
